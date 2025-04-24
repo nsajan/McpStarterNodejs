@@ -5,7 +5,7 @@ import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/
 import { SSEServerTransport } from '@modelcontextprotocol/sdk/server/sse.js';
 import { z } from 'zod';
 import { CallToolResult, isInitializeRequest } from '@modelcontextprotocol/sdk/types.js';
-import { InMemoryEventStore } from '../src/shared/inMemoryEventStore.js';
+import { InMemoryEventStore } from './shared/inMemoryEventStore.js';
 
 /**
  * This example server demonstrates backwards compatibility with both:
